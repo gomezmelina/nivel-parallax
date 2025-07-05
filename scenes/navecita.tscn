@@ -1,0 +1,52 @@
+[gd_scene load_steps=10 format=3 uid="uid://djw14h8gtf6yu"]
+
+[ext_resource type="Texture2D" uid="uid://dd7i1rutntaip" path="res://assets/idle/nave_idle0.png" id="1_2aqdw"]
+[ext_resource type="Script" uid="uid://b6mdoxp8y1o6o" path="res://scripts/navecita.gd" id="1_dmeup"]
+[ext_resource type="Texture2D" uid="uid://c64rm3p1dvfqk" path="res://assets/idle/nave_idle1.png" id="2_dmeup"]
+[ext_resource type="Texture2D" uid="uid://c8hlx6dd8eu88" path="res://assets/idle/nave_idle2.png" id="3_gbmse"]
+[ext_resource type="Texture2D" uid="uid://b2n52ic8y711w" path="res://assets/idle/nave_idle3.png" id="4_201ms"]
+[ext_resource type="Texture2D" uid="uid://07rbbn4xdsr5" path="res://assets/idle/nave_idle4.png" id="5_rgl58"]
+[ext_resource type="Texture2D" uid="uid://bjcxx8av48r2h" path="res://assets/idle/nave_idle5.png" id="6_udubv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c0a2q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2aqdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dmeup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gbmse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_201ms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_rgl58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_udubv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vpbo4"]
+radius = 32.0
+height = 92.0
+
+[node name="Navecita" type="CharacterBody2D"]
+script = ExtResource("1_dmeup")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_c0a2q")
+frame_progress = 0.691231
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, -23)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_vpbo4")

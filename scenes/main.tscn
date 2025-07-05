@@ -1,0 +1,59 @@
+[gd_scene load_steps=7 format=3 uid="uid://brumxrveibiqb"]
+
+[ext_resource type="Script" uid="uid://cq8bc0owq0k18" path="res://scripts/main.gd" id="1_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://d3pfjs6l86baq" path="res://scenes/fondo.tscn" id="1_sugp2"]
+[ext_resource type="PackedScene" uid="uid://djw14h8gtf6yu" path="res://scenes/navecita.tscn" id="2_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://bkgcbhbqrb3gt" path="res://assets/Capas de escenario ciudad/(9) - PrimerPlano_Vereda.png" id="4_jyhfs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jyhfs"]
+size = Vector2(1957, 114)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tbgi4"]
+size = Vector2(210, 1085)
+
+[node name="Main" type="Node"]
+script = ExtResource("1_jyhfs")
+
+[node name="Navecita" parent="." instance=ExtResource("2_jyhfs")]
+z_index = 7
+position = Vector2(304, 544)
+
+[node name="Camera2D" type="Camera2D" parent="Navecita"]
+position = Vector2(-122, -6)
+limit_left = 0
+limit_top = 0
+
+[node name="spawn" type="Marker2D" parent="."]
+position = Vector2(2080, 488)
+
+[node name="r1" type="Marker2D" parent="."]
+position = Vector2(1987, 656)
+
+[node name="r2" type="Marker2D" parent="."]
+position = Vector2(1987, 344)
+
+[node name="Fondo" parent="." instance=ExtResource("1_sugp2")]
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+
+[node name="piso" type="Sprite2D" parent="."]
+position = Vector2(960, 582)
+texture = ExtResource("4_jyhfs")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(965.5, 1080)
+shape = SubResource("RectangleShape2D_jyhfs")
+
+[node name="limite" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="limite"]
+position = Vector2(-136, 536)
+shape = SubResource("RectangleShape2D_tbgi4")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="body_entered" from="limite" to="." method="_on_limite_body_entered"]

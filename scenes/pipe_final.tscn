@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxhqq0h0ryxpj"]
+
+[ext_resource type="Script" uid="uid://bcg10yebqch2k" path="res://scripts/pipe_final.gd" id="1_a5f6e"]
+[ext_resource type="PackedScene" uid="uid://ml5465vjjflu" path="res://scenes/pipe.tscn" id="1_i3ttq"]
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_a5f6e")
+
+[node name="Area2D" parent="." instance=ExtResource("1_i3ttq")]
+position = Vector2(-5, 368)
+
+[node name="Area2D2" parent="." instance=ExtResource("1_i3ttq")]
+position = Vector2(40, -663)
+rotation = -3.14159
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]

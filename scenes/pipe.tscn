@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://ml5465vjjflu"]
+
+[ext_resource type="Texture2D" uid="uid://36oec7p0mc6d" path="res://assets/(5) - Edificios.png" id="1_8x3ej"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_arpqm"]
+size = Vector2(201, 916)
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-5, 2)
+texture = ExtResource("1_8x3ej")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(23.5, 76)
+shape = SubResource("RectangleShape2D_arpqm")

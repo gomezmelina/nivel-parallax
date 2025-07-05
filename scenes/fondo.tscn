@@ -1,0 +1,93 @@
+[gd_scene load_steps=7 format=3 uid="uid://d3pfjs6l86baq"]
+
+[ext_resource type="Texture2D" uid="uid://bsqyuvw064wy6" path="res://assets/Capas de escenario ciudad/(0) - Fondo_ColorPlano.png" id="2_4kc6w"]
+[ext_resource type="Texture2D" uid="uid://dpi5bx23x4qnx" path="res://assets/Capas de escenario ciudad/(1) - Fondo_Estrellas.png" id="3_ujmeh"]
+[ext_resource type="Texture2D" uid="uid://b6u2fpfyiolbx" path="res://assets/Capas de escenario ciudad/(3) - Fondo_Luna.png" id="4_w0tcn"]
+[ext_resource type="Texture2D" uid="uid://cp7pqbkwdlgvh" path="res://assets/Capas de escenario ciudad/(5) - Edificios.png" id="5_8qpcn"]
+[ext_resource type="Texture2D" uid="uid://cpgx8a7qccd6r" path="res://assets/Capas de escenario ciudad/(6) - Edificios.png" id="6_ebinj"]
+[ext_resource type="Texture2D" uid="uid://0fu6ee3lj4y0" path="res://assets/Capas de escenario ciudad/(7) - Edificios.png" id="7_770vq"]
+
+[node name="Fondo" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="cielo" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+motion_mirroring = Vector2(1920, 0)
+
+[node name="estrellas" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(1920, 0)
+
+[node name="luna" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(1920, 0)
+
+[node name="edificios" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.3, 0.3)
+motion_mirroring = Vector2(1920, 0)
+
+[node name="edificios 2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.4, 0.4)
+motion_mirroring = Vector2(1920, 0)
+
+[node name="edificios 3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(1920, 0)
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-100, 0)
+repeat_times = 3
+
+[node name="cielo" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(960, 539)
+texture = ExtResource("2_4kc6w")
+
+[node name="Parallax2D2" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0, 0)
+repeat_size = Vector2(1920, 0)
+repeat_times = 3
+
+[node name="estrellas" type="Sprite2D" parent="Parallax2D2"]
+position = Vector2(962, 539)
+texture = ExtResource("3_ujmeh")
+
+[node name="Parallax2D3" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.2, 0.2)
+repeat_size = Vector2(3840, 0)
+autoscroll = Vector2(-140, 0)
+
+[node name="luna" type="Sprite2D" parent="Parallax2D3"]
+position = Vector2(965, 543)
+texture = ExtResource("4_w0tcn")
+
+[node name="Parallax2D4" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.3, 0.3)
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-180, 0)
+repeat_times = 3
+
+[node name="edificios" type="Sprite2D" parent="Parallax2D4"]
+position = Vector2(957, 547)
+texture = ExtResource("5_8qpcn")
+
+[node name="Parallax2D5" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.4, 0.4)
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-220, 0)
+repeat_times = 3
+
+[node name="edificios 2" type="Sprite2D" parent="Parallax2D5"]
+position = Vector2(957, 547)
+texture = ExtResource("6_ebinj")
+
+[node name="Parallax2D6" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.5, 0.5)
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-260, 0)
+repeat_times = 3
+
+[node name="edificios 3" type="Sprite2D" parent="Parallax2D6"]
+position = Vector2(961, 547)
+texture = ExtResource("7_770vq")
