@@ -1,0 +1,36 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1751760872
+icon.svg::CompressedTexture2D::46787082297648038::1751760343::1751760875::1::::<><><>0<>0<>e696b4702c739c6cb24896d295617c05<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1751760356
+(5) - Edificios.png::CompressedTexture2D::2030140668510966265::1751760343::1751760875::1::::<><><>0<>0<>529c5f9c9adbda32eea004cf27b4744f<>res://.godot/imported/(5) - Edificios.png-0f71a51ca60c0b261f67217703818517.ctex::
+plataforma_amarillo.png::CompressedTexture2D::8424673312349558680::1751760343::1751760876::1::::<><><>0<>0<>ae421a9fa79e4dcd5c79a1d733e603e8<>res://.godot/imported/plataforma_amarillo.png-14ca89b2fef8ef1799b48cac7295c4d6.ctex::
+::res://assets/Capas de escenario ciudad/::1751760356
+(0) - Fondo_ColorPlano.png::CompressedTexture2D::3684343975101661727::1751760343::1751760877::1::::<><><>0<>0<>fb9b4be74075e8a483324c617daa03f3<>res://.godot/imported/(0) - Fondo_ColorPlano.png-54fc2fe69038984f6937092ce99465d8.ctex::
+(1) - Fondo_Estrellas.png::CompressedTexture2D::8230434274310024873::1751760343::1751760877::1::::<><><>0<>0<>6acd0347d9386580ba244c8a7d33a1af<>res://.godot/imported/(1) - Fondo_Estrellas.png-ab84eb154843a33b185b33dcf8d0cca6.ctex::
+(2) - Fondo_Estrellas.png::CompressedTexture2D::8867299848814926378::1751760343::1751760877::1::::<><><>0<>0<>074de58fa0a66e81074939b49885ce17<>res://.godot/imported/(2) - Fondo_Estrellas.png-7e45a1d0da7f62d52ffc4d5e1aad1ba5.ctex::
+(3) - Fondo_Luna.png::CompressedTexture2D::4605211476003497621::1751760343::1751760877::1::::<><><>0<>0<>e18981278bac98eb485191c3e04a7a6c<>res://.godot/imported/(3) - Fondo_Luna.png-1f17914a70b93a583960b08580663b2d.ctex::
+(4) - Fondo_Estrellas.png::CompressedTexture2D::5703173215370178205::1751760343::1751760877::1::::<><><>0<>0<>adc4cbc50ad80d2cb6bdf1e4e72cb1b2<>res://.godot/imported/(4) - Fondo_Estrellas.png-0473079c473cf33710e1a4d61ebd8394.ctex::
+(5) - Edificios.png::CompressedTexture2D::5892673506655998641::1751760343::1751760877::1::::<><><>0<>0<>9530448a0035459ab71acb366888af58<>res://.godot/imported/(5) - Edificios.png-f4b6646999addbd57b2193a6a6943045.ctex::
+(6) - Edificios.png::CompressedTexture2D::5839515760677000683::1751760343::1751760876::1::::<><><>0<>0<>385c3a33679fa8e8667725b66e8dc924<>res://.godot/imported/(6) - Edificios.png-19d05868357c97392dd62146c430f5e9.ctex::
+(7) - Edificios.png::CompressedTexture2D::1766312896747387445::1751760343::1751760876::1::::<><><>0<>0<>4c298d33a224889811f206dd60c5c313<>res://.godot/imported/(7) - Edificios.png-d39427419bdffd401415e291decba3da.ctex::
+(8) - Edificios.png::CompressedTexture2D::4774894573155846521::1751760343::1751760876::1::::<><><>0<>0<>822acbef9fc3a1757bbaefe62cf1bb49<>res://.godot/imported/(8) - Edificios.png-aa45fa42aa863f6dccc193012bd4fd90.ctex::
+(9) - PrimerPlano_Vereda.png::CompressedTexture2D::3100818976335233191::1751760343::1751760876::1::::<><><>0<>0<>cae1de0a82754d8e55ae12d37324985f<>res://.godot/imported/(9) - PrimerPlano_Vereda.png-2619957c98f7af064e06de17b87b509a.ctex::
+(10) - PrimerPlano_Faros.png::CompressedTexture2D::1087486799027629111::1751760343::1751760876::1::::<><><>0<>0<>10170d995b8e6c6406e42483eab361eb<>res://.godot/imported/(10) - PrimerPlano_Faros.png-0c6fa901c94eed56c36d79d1fc7848c8.ctex::
+::res://assets/idle/::1751760356
+nave_idle0.png::CompressedTexture2D::7436421761381405415::1751760343::1751760875::1::::<><><>0<>0<>96f47d716ce4ac58b995c2ba44a5065a<>res://.godot/imported/nave_idle0.png-14eab712871a180bd4718610c4ac12e0.ctex::
+nave_idle1.png::CompressedTexture2D::7009617588448860182::1751760343::1751760875::1::::<><><>0<>0<>9ab12664d8488263fce2ae5c06b9ea0e<>res://.godot/imported/nave_idle1.png-e3168271afbb287df8cc717fef34a408.ctex::
+nave_idle2.png::CompressedTexture2D::7104234444938787491::1751760343::1751760875::1::::<><><>0<>0<>5c119e0bcc6f4a1eb5f39f1f93337034<>res://.godot/imported/nave_idle2.png-9c117a5e394bc0217c80ce077771ff23.ctex::
+nave_idle3.png::CompressedTexture2D::4310226523750318354::1751760343::1751760875::1::::<><><>0<>0<>948a1d06d0e329d7450ecac12f287c5b<>res://.godot/imported/nave_idle3.png-9f0c63597e51f06aa5e9248f646596c5.ctex::
+nave_idle4.png::CompressedTexture2D::1821815227705967120::1751760343::1751760875::1::::<><><>0<>0<>707a13ea364e7f44ee84c602986081ed<>res://.godot/imported/nave_idle4.png-0a1f32e7b6a0cf9f07c6bfd69d901a64.ctex::
+nave_idle5.png::CompressedTexture2D::3023688330301723353::1751760343::1751760875::1::::<><><>0<>0<>7a06b36c24059ad6c2f33cffee006b88<>res://.godot/imported/nave_idle5.png-6410563e3a68d80e194cc51547b70824.ctex::
+nave_idle6.png::CompressedTexture2D::7181925471323789389::1751760343::1751760875::1::::<><><>0<>0<>929d075c92a993ea93abd08fe25534df<>res://.godot/imported/nave_idle6.png-38fb34e8a136b661abba1ce82ab361b5.ctex::
+::res://scenes/::1751760356
+fondo.tscn::PackedScene::9155835990218430780::1751760343::0::1::::<><><>0<>0<><>::uid://bsqyuvw064wy6::::res://assets/Capas de escenario ciudad/(0) - Fondo_ColorPlano.png<>uid://dpi5bx23x4qnx::::res://assets/Capas de escenario ciudad/(1) - Fondo_Estrellas.png<>uid://b6u2fpfyiolbx::::res://assets/Capas de escenario ciudad/(3) - Fondo_Luna.png<>uid://cp7pqbkwdlgvh::::res://assets/Capas de escenario ciudad/(5) - Edificios.png<>uid://cpgx8a7qccd6r::::res://assets/Capas de escenario ciudad/(6) - Edificios.png<>uid://0fu6ee3lj4y0::::res://assets/Capas de escenario ciudad/(7) - Edificios.png
+main.tscn::PackedScene::3621689183324183945::1751760343::0::1::::<><><>0<>0<><>::uid://cq8bc0owq0k18::::res://scripts/main.gd<>uid://d3pfjs6l86baq::::res://scenes/fondo.tscn<>uid://djw14h8gtf6yu::::res://scenes/navecita.tscn<>uid://bkgcbhbqrb3gt::::res://assets/Capas de escenario ciudad/(9) - PrimerPlano_Vereda.png
+navecita.tscn::PackedScene::7838008803186312600::1751760343::0::1::::<><><>0<>0<><>::uid://dd7i1rutntaip::::res://assets/idle/nave_idle0.png<>uid://b6mdoxp8y1o6o::::res://scripts/navecita.gd<>uid://c64rm3p1dvfqk::::res://assets/idle/nave_idle1.png<>uid://c8hlx6dd8eu88::::res://assets/idle/nave_idle2.png<>uid://b2n52ic8y711w::::res://assets/idle/nave_idle3.png<>uid://07rbbn4xdsr5::::res://assets/idle/nave_idle4.png<>uid://bjcxx8av48r2h::::res://assets/idle/nave_idle5.png
+pipe.tscn::PackedScene::866849252291799830::1751760343::0::1::::<><><>0<>0<><>::uid://36oec7p0mc6d::::res://assets/(5) - Edificios.png
+pipe_final.tscn::PackedScene::8789057468676166419::1751760343::0::1::::<><><>0<>0<><>::uid://bcg10yebqch2k::::res://scripts/pipe_final.gd<>uid://ml5465vjjflu::::res://scenes/pipe.tscn
+::res://scripts/::1751760356
+main.gd::GDScript::5964052955792240325::1751760343::0::1::::<>Node<><>0<>0<><>::
+navecita.gd::GDScript::4587255754355389972::1751760343::0::1::::<>CharacterBody2D<><>0<>0<><>::
+pipe_final.gd::GDScript::2540809190959600492::1751760343::0::1::::<>CharacterBody2D<><>0<>0<><>::
